@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Get Started"
-    url: /get-started/installation
+    url: /get-started/overview/
   - title: "Docs"
     url: /docs/quick-start-guide/
 
@@ -10,13 +10,13 @@ get-started:
   - title: "Get Started"
     children:
       - title: "Overview"
-        url: /get-started/quick-start-guide/
+        url: /get-started/overview/
       - title: "Installation"
-        url: /get-started/structure/
-      - title: "Why Dart?"
         url: /get-started/installation/
+      - title: "Why Dart?"
+        url: /get-started/why-dart/
       - title: "Development Recommendation"
-        url: /get-started/upgrading/
+        url: /get-started/dev-recommendation/
 
 # documentation links
 docs:
