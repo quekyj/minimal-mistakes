@@ -1,64 +1,28 @@
 # main links
 main:
   - title: "Get Started"
-    url: /docs/quick-start-guide/
+    url: /get-started/installation
   - title: "Docs"
-    url: /
+    url: /docs/quick-start-guide/
 
-
-  # documentation links
-docs:
-  - title: Getting Started
+# get started links
+get-started:
+  - title: "Get Started"
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
+      - title: "Overview"
+        url: /get-started/quick-start-guide/
       - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
+        url: /get-started/structure/
+      - title: "Why Dart?"
+        url: /get-started/installation/
+      - title: "Development Recommendation"
+        url: /get-started/upgrading/
+
+# documentation links
+docs:
+  - title: "Docs"
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: "Tutorial"
+        url: /docs/quick-start-guide/
+      - title: "API Documentation"
+        url: "https://pub.dev/documentation/rohd/latest/"

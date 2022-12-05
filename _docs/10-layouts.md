@@ -686,7 +686,7 @@ docs:
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
-        url: /docs/installation/
+        url: /get-started/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
 

@@ -214,6 +214,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  get-started:
+    output: true
+    permalink: /:collection/path/
 
 
 # Sass/SCSS
@@ -308,3 +311,15 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+  # _docs
+  - scope:
+      path: ""
+      type: get-started
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "get-started"
